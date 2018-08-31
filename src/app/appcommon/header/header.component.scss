@@ -1,0 +1,27 @@
+.app-header-container {
+  background-color: #ddd;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  position: fixed;
+  width: 100%;
+  top: 0px;
+
+  .app-header {
+    margin: auto;
+    background: rgba(0, 0, 0, 0.1);
+    background-image: radial-gradient(circle at 50% 50%, #fff, #fff 43%, #ddd);
+
+    padding: 10px;
+    max-width: 1280px;
+    .icon {
+      background-image: url("/assets/img/logo.svg");
+      background-size: 280px 40px;
+      background-repeat: no-repeat;
+      margin-left: 20px;
+      margin-right: 20px;
+      width: 280px;
+      height: 40px;
+
+    }
+  }
+}
