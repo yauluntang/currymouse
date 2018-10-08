@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LandingComponent } from './landing/landing.component';
 import { BunnydownloadComponent } from './bunnydownload/bunnydownload.component';
+import { BunnyprivacyComponent } from './bunnyprivacy/bunnyprivacy.component';
 
 @NgModule({
   imports: [
@@ -9,8 +10,9 @@ import { BunnydownloadComponent } from './bunnydownload/bunnydownload.component'
   ],
   exports: [
     LandingComponent,
-    BunnydownloadComponent
+    BunnydownloadComponent,
+    BunnyprivacyComponent
   ],
-  declarations: [LandingComponent, BunnydownloadComponent]
+  declarations: [LandingComponent, BunnydownloadComponent, BunnyprivacyComponent]
 })
 export class PagesModule { }
